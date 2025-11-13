@@ -58,7 +58,7 @@ jobs:
         uses: actions/configure-pages@v5
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload build output directory
           path: './${{env.REACT_DIRECTORY}}/${{env.BUILD_DIRECTORY}}'

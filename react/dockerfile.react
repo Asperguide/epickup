@@ -5,7 +5,7 @@
 ## dockerfile.react
 ##
 
-FROM node:23-alpine3.20
+FROM node:24-alpine3.20
 
 # Update the list of packages
 RUN apk update && apk add bash
